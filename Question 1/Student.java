@@ -1,3 +1,4 @@
+// Qeustion 1a) 10 points
 public class Student {
     private String name;
     private String major;
