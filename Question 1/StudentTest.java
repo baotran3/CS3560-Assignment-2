@@ -1,3 +1,4 @@
+// Qeustion 1b) 5 points
 public class StudentTest {
     public static void main(String[] args) {
         // Create first student using the parameterized constructor
