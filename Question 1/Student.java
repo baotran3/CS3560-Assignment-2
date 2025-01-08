@@ -1,3 +1,4 @@
+//Question 1, Part A
 public class Student {
     private String name;
     private String major;
