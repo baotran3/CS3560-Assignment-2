@@ -11,21 +11,20 @@ public class Student {
         this.gpa = 0.0;
     }
 
-    // Constructor with name and major
+    //constructor w/ name and major
     public Student(String name, String major) {
         this.name = name;
         this.major = major;
         this.gpa = 0.0;
     }
 
-    // Constructor with name, major, and gpa
+    //constructor w/ name, major, and gpa
     public Student(String name, String major, double gpa) {
         this.name = name;
         this.major = major;
         this.gpa = gpa;
     }
-
-    // Getters and Setters
+    
     public String getName() {
         return name;
     }
@@ -50,13 +49,11 @@ public class Student {
         this.gpa = gpa;
     }
 
-    // Override toString method
     @Override
     public String toString() {
         return "Name: " + name + ", Major: " + major + ", GPA: " + gpa;
     }
 
-    // Override equals method
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
