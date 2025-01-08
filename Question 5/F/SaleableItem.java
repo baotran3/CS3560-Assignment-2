@@ -1,0 +1,3 @@
+interface SaleableItem {
+    void sellCopy();
+}
